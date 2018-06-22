@@ -40,3 +40,7 @@
 	    $("#preloader").on(500).fadeOut();
 	    $(".preloader").on(600).fadeOut("slow");
 	});
+
+	function move_profile(){
+		window.location.href = 'blog.html';
+	}

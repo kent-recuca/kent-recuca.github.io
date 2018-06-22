@@ -304,16 +304,16 @@ HEADER
 }
 
 .social a {
-    font-size: 12px;
+    font-size: 30px;
     color: #fff !important;
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.1);
-    width: 25px;
+    width: 50px;
     text-align: center;
-    border-radius: 1px;
-    margin-left: 2px;
-    height: 25px;
-    line-height: 25px;
+    border-radius: 2px;
+    margin-left: 4px;
+    height: 50px;
+    line-height: 50px;
 }
 
 .social a:hover {
@@ -335,20 +335,16 @@ HEADER
     background-color: #3b5998;
 }
 
-.social a.pinterest {
-    background-color: #bd081c;
-}
-
 .social a.twitter {
     background-color: #1da1f2;
 }
 
-.social a.google {
-    background-color: #34a853;
+.social a.qiita {
+    background-color: #1df21d;
 }
 
-.social a.linkedin {
-    background-color: #0077b5;
+.social a.github {
+    background-color: #000000;
 }
 
 .modal {
