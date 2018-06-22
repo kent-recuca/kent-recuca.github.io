@@ -103,7 +103,6 @@ a {
 .course-details h4 a,
 .readmore,
 .testimonial strong,
-h1,
 h2,
 h3,
 h4,
@@ -111,7 +110,10 @@ h5,
 h6 {
     color: #000;
 }
-
+h1{
+    color: #000;
+    font-weight: 700;
+}
 h1,
 h2,
 h3,
@@ -337,10 +339,6 @@ HEADER
 
 .social a.twitter {
     background-color: #1da1f2;
-}
-
-.social a.qiita {
-    background-color: #1df21d;
 }
 
 .social a.github {
@@ -1468,11 +1466,17 @@ BLOG
     display: block;
     margin: 25px 0;
 }
-
+.blog-desc-big .tex {
+    color: #0739dd;
+    font-size: 30px;
+    font-weight: 600;
+}
 .blog-desc-big .lead {
     color: #000000;
     font-weight: 600;
 }
+
+
 
 .blog-desc-big .btn {
     margin-top: 15px;
@@ -2024,10 +2028,10 @@ BUTTONS
 
 .btn {
     border-radius: 0;
-    font-size: 14px;
+    font-size: 20px;
     border: 1px solid #fff;
     font-weight: bold;
-    color: #ffffff !important;
+    color: #0d44fc !important;
     padding: 13px 40px;
     text-transform: capitalize;
 }
