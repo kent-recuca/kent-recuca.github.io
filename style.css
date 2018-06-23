@@ -1435,6 +1435,7 @@ BLOG
     letter-spacing: 0;
     font-size: 14px;
     padding-right: 5px;
+    position: absolute;
 }
 
 .blog-meta h3 {
@@ -2059,7 +2060,7 @@ MICS
     right: 0;
     bottom: 0;
     left: 0;
-    background: #fff;
+    background: rgb(2, 149, 247);
     z-index: 11000;
     position: fixed;
     display: block
@@ -2071,8 +2072,8 @@ MICS
     left: 1%;
     right: 1%;
     top: 47%;
-    width: 65px;
-    height: 65px;
+    width: 200px;
+    height: 200px;
     background: center center no-repeat none;
     background-size: 65px 65px;
     -webkit-border-radius: 50%;
@@ -2216,6 +2217,8 @@ RESPONSIVE
     }
     .container {
         min-width: 100% !important;
+        text-align: center;
+        margin:center;
     }
     .footer .widget {
         margin: 30px 0;
