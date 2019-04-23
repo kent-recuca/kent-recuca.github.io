@@ -5,13 +5,33 @@
 
 .mask{
     -webkit-animation: fadein 1.5s ease-in-out 1.4s;
-
 }
 
 @keyframes fadein {
     0% {opacity: 0}
     100% {opacity: 1}
 }
+
+/* tab */
+.tab_wrap{width:700px; margin:0px auto;}
+input[type="radio"]{display:none;}
+.tab_area{font-size:0; margin:0 10px;}
+.tab_area label{width:150px; margin:auto; display:inline-block; padding:12px 0; color:#999; background:#ddd; text-align: center; font-size:13px; cursor:pointer; transition:ease 0.2s opacity;}
+.tab_area label:hover{opacity:0.5;}
+.panel_area{background:#fff;}
+.tab_panel{width:100%; padding:80px 0; display:none;}
+.tab_panel p{font-size:14px; letter-spacing:1px; text-align:left;}
+#tab1:checked ~ .tab_area .tab1_label{background:rgb(151, 215, 252); color:#000;}
+#tab1:checked ~ .panel_area #panel1{display:block;}
+#tab2:checked ~ .tab_area .tab2_label{background:rgb(8, 247, 207); color:#000;}
+#tab2:checked ~ .panel_area #panel2{display:block;}
+#tab3:checked ~ .tab_area .tab3_label{background:rgb(118, 224, 132); color:#000;}
+#tab3:checked ~ .panel_area #panel3{display:block;}
+#tab4:checked ~ .tab_area .tab4_label{background:rgb(224, 118, 118); color:#000;}
+#tab4:checked ~ .panel_area #panel4{display:block;}
+#tab5:checked ~ .tab_area .tab5_label{background:rgb(221, 236, 5); color:#000;}
+#tab5:checked ~ .panel_area #panel5{display:block;}
+
 
 .facebook {
     -webkit-animation: bound 1.5s ease-in-out 2.9s;
@@ -163,3 +183,4 @@ transform: rotate3d(0,0,1,-45deg) translate3d(0,-120%,0);
     transform: translate(-50%, -50%);
     z-index: 10;
 }
+
