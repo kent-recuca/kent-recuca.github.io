@@ -137,9 +137,9 @@ input[type="radio"]{display:none;}
 
 @media screen and (max-width: 991px) {
     .tab_wrap{
-        width:350px; margin:0px auto;
+        width:100%; margin:0px auto;
     }
-    .tab_area label{width:170px; margin:auto; display:inline-block; padding:12px 0; color:#999; background:#ddd; text-align: center; font-size:13px; cursor:pointer; transition:ease 0.2s opacity;}
+    .tab_area label{width:100%; margin:auto; display:inline-block; padding:12px 0; color:#999; background:#ddd; text-align: center; font-size:13px; cursor:pointer; transition:ease 0.2s opacity;}
 }
 
 .facebook {
