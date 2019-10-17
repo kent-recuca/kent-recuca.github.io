@@ -194,13 +194,13 @@ input[type="radio"]{display:none;}
 }
 
 
-@-webkit-keyframes bound {
+/* @-webkit-keyframes bound {
 0% {transform: scale(0) translate(0,-50px);}
 50% {transform: scaleX(.5) translate(0,50px);}
 70% {transform: scaleY(.125) translate(0,-25px);}
 90% {transform: scaleX(.25) translate(0,50px);}
 100% {transform: scale(.375) translate(0,0);}
-}
+} */
 
 .type-shine {
 font-size: 60px;
